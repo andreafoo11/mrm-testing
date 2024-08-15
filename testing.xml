@@ -1,0 +1,71 @@
+<VAST version="4.0">
+  <Ad id="12345">
+    <InLine>
+      <AdSystem>ExampleAdServer</AdSystem>
+      <AdTitle>Sample Ad</AdTitle>
+      <Impression><![CDATA[http://example.com/impression]]></Impression>
+      <Creatives>
+        <!-- MP4 Video Creative -->
+        <Creative id="1" sequence="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[http://example.com/video.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/clickthrough]]></ClickThrough>
+              <ClickTracking><![CDATA[http://example.com/clicktracking]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+
+        <!-- HTML5 Creative -->
+        <Creative id="2" sequence="4">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="application/javascript" width="640" height="360">
+                <![CDATA[http://example.com/html5-ad.html]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/clickthrough-html5]]></ClickThrough>
+              <ClickTracking><![CDATA[http://example.com/clicktracking-html5]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+
+        <!-- VPAID Creative -->
+        <Creative id="3" sequence="5">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="dynamic" type="application/javascript" width="640" height="360">
+                <![CDATA[http://example.com/vpaid-ad.js]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/clickthrough-vpaid]]></ClickThrough>
+              <ClickTracking><![CDATA[http://example.com/clicktracking-vpaid]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+
+        <!-- Image Creative -->
+        <Creative id="4" sequence="6">
+          <NonLinearAds>
+            <NonLinear width="300" height="250" apiFramework="VPAID">
+              <StaticResource creativeType="image/jpeg">
+                <![CDATA[http://example.com/image-ad.jpg]]>
+              </StaticResource>
+              <NonLinearClickThrough><![CDATA[http://example.com/clickthrough-image]]></NonLinearClickThrough>
+              <NonLinearClickTracking><![CDATA[http://example.com/clicktracking-image]]></NonLinearClickTracking>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
