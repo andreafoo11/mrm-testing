@@ -1,30 +1,18 @@
 <VAST version="4.0">
-  <Ad id="12345">
-    <InLine>
-      <AdSystem>Example Ad Server</AdSystem>
-      <AdTitle>Test Ad</AdTitle>
-      <Description>This is a test ad.</Description>
-      <Survey>http://example.com/survey</Survey>
-      <Error>http://example.com/error</Error>
-      <Impression>
-        <URI>http://example.com/impression</URI>
-      </Impression>
-      <Creatives>
-        <Creative id="67890" sequence="1">
-          <Linear>
-            <Duration>00:00:30</Duration>
-            <TrackingEvents>
-              <Tracking event="start">http://example.com/start</Tracking>
-              <Tracking event="midpoint">http://example.com/midpoint</Tracking>
-              <Tracking event="complete">http://example.com/complete</Tracking>
-            </TrackingEvents>
-            <MediaFiles>
-              <MediaFile id="98765" delivery="progressive" type="video/mp4" bitrate="600">
-                <URI>http://example.com/video.mp4</URI>  </MediaFile>
-            </MediaFiles>
-          </Linear>
-        </Creative>
-      </Creatives>
-    </InLine>
-  </Ad>
+<Ad id="18048203.140358187372032" sequence="1">
+<InLine>
+<AdSystem> FreeWheel </AdSystem>
+<Creatives>
+<Creative AdID="18048203" id="2537281">
+<Linear>
+<MediaFiles>
+<MediaFile bitrate="19352" delivery="progressive" height="1080" id="6498795" type="video/mp4" width="1920">
+<![CDATA[ http://s1.fwmrm.net/m/1/394366/65/2537281/6498795/source_29398_77879_1484333083.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
 </VAST>
