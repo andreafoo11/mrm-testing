@@ -1,0 +1,43 @@
+<VAST version="2.0">
+<Ad id="1a3ilq">
+<InLine>
+  <AdSystem>Innovid Ads</AdSystem>
+  <Extensions>
+    <Extension type="innovid_ictv">
+      <URL type="application/json"><![CDATA[https://s-video.innovid.com/...]]></URL>
+      <URL type="text/html"><![CDATA[https://s-video.innovid.com/...]]></URL>
+    </Extension>
+  </Extensions>
+  <AdTitle>
+    <![CDATA[ Some Interactive Ad ]]>
+  </AdTitle>
+  <Impression>
+    <![CDATA[https://s.innovid.com/1x1.gif...]]>
+  </Impression>
+  <Creatives>
+    <Creative>
+      <Linear>
+        <Duration>00:00:30</Duration>
+        <MediaFiles>
+          <MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4125"apiFramework="innovid"><![CDATA[https://s-static.innovid.com/...]]></MediaFile>
+        </MediaFiles>
+    </Linear>
+    </Creative>
+    <Creative>
+      <CompanionAds>
+        <Companion id="companion_16x9_static_generic" width="16" height="9" apiFramework="innovid">
+          <StaticResource creativeType="application/json">
+            <![CDATA[https://s-video.innovid.com/...json]]>
+          </StaticResource>
+        </Companion>
+        <Companion id="companion_16x9_static_html_generic" width="16" height="9" apiFramework="innovid">
+          <IFrameResource>
+            <![CDATA[https://s-video.innovid.com/...html]]>
+          </IFrameResource>
+        </Companion>
+      </CompanionAds>
+    </Creative>
+  </Creatives>
+</InLine>
+</Ad>
+</VAST>
