@@ -19,7 +19,7 @@
       <Linear>
         <Duration>00:00:30</Duration>
         <MediaFiles>
-          <MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4125"apiFramework="innovid"><![CDATA[https://s-static.innovid.com/...]]></MediaFile>
+          <MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4125" apiFramework="innovid"><![CDATA[https://s-static.innovid.com/...]]></MediaFile>
         </MediaFiles>
     </Linear>
     </Creative>
