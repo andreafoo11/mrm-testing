@@ -1,6 +1,12 @@
 <VAST version="3.0">
 <Ad sequence="0">
 <InLine>
+<Extensions>
+    <Extension type="innovid_ictv">
+      <URL type="application/json"><![CDATA[https://s-video.innovid.com/...]]></URL>
+      <URL type="text/html"><![CDATA[https://s-video.innovid.com/...]]></URL>
+    </Extension>
+</Extensions>
 <AdSystem>Omen</AdSystem>
 <AdTitle>Roland Garros - Longuines MM</AdTitle>
 <Impression>
